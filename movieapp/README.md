@@ -7,16 +7,22 @@ This repository contains a single frontend app located in `movieapp/`.
 ## Project Description
 
 MovieApp lets users:
+
 - Browse popular movies from The Movie Database (TMDB)
 - Search for movies by title
 - Add and remove favorites
 - Persist favorites in browser `localStorage`
 
 The app is a client-side SPA using:
+
 - React 19
 - React Router DOM 7
 - Vite (Rolldown build)
 - Plain CSS modules per feature/page
+
+## Live Demo
+
+Visit the deployed app: https://movieapp-taupe-five.vercel.app/
 
 ## Repository Layout
 
@@ -57,16 +63,19 @@ Run these inside `movieapp/`:
 ## Usage Examples
 
 ### 1. Browse Popular Movies
+
 1. Start the app with `npm run dev`.
 2. Open the Home page (`/`).
 3. Popular movies are fetched and displayed in a grid.
 
 ### 2. Search for a Movie
+
 1. Type a title in the search box (for example: `Inception`).
 2. Click **Search**.
 3. Matching results replace the default popular list.
 
 ### 3. Manage Favorites
+
 1. Click the heart button on any movie card to add/remove favorites.
 2. Go to **Favorites** in the navbar (`/favorites`).
 3. Favorites stay saved after refresh using `localStorage`.
